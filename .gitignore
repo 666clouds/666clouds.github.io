@@ -1,0 +1,14 @@
+# 1. 忽略所有的文件和目录
+*
+
+# 2. 豁免 .gitignore 自身（强烈建议将此文件也提交，方便记录规则）
+!.gitignore
+
+# 3. 豁免 README.md 文件
+!README.md
+
+# 4. 豁免 dist 目录本身
+!dist/
+
+# 5. 豁免 dist 目录下的所有内容
+!dist/**
