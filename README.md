@@ -1,16 +1,50 @@
-# React + Vite
+# 六六云 (66Cloud) 2026 最新优惠码与评测 | 高性价比 VPS 与双 ISP 推荐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+欢迎来到本仓库！这里专注于分享 **六六云 (66Cloud)** 的最新优惠活动、高性价比 VPS 套餐推荐以及详细的使用教程。
 
-Currently, two official plugins are available:
+无论您是用于外贸建站、短视频流量运营还是日常网络测试，都能在这里找到合适的配置方案。
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 快速导航
+👉 **[点击进入六六云官方网站](https://www.666clouds.com/aff.php?aff=3910)**  
+👉 **[查看详细评测与实时库存 (GitHub Pages)](https://666clouds.github.io/)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎁 2026 最新可用优惠码
 
-## Expanding the ESLint configuration
+我们在结账时为您整理了以下折扣代码，请根据您的付款周期选择使用：
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **全站通用月付九折优惠码**：使用代码 `month10off` 可获取 10% OFF 优惠。
+* **全站通用年付七折优惠码**：使用代码 `year30off` 可获取 30% OFF 优惠。
+* **英德两区产品8折优惠码**：使用代码 `UKO9R2NVC1F1` 可获取 20% OFF 优惠（2026.3.18发布，限时3天，有效期至 2026-03-21）。
+
+---
+
+## 🔥 热门套餐推荐
+
+我们根据网络质量和业务需求，为您精选了以下热门节点：
+
+### 🇺🇸 美国原生 IP / 双 ISP (短视频与电商首选)
+* **美西原生IP双ISP - NTT（新IP）**：提供 1000Mbits 带宽、1vCPU、1G 内存和 1TB 流量，每月 ¥50.00 CNY。这是一款拥有全新 IP 段和双 isp 的产品，旨在助力 tiktok 业务。
+* **美国原生IP三网CN2 GIA大带宽**：包含 200Mbits 三网CN2 GIA精品线路、1vCPU、1G 内存和 800GB 流量，每月 ¥55.00 CNY。其 IP 支持 tiktok、chatgpt，并能解锁 netflix。
+* **美西原生IP双ISP - 9929优化线路（新手首选）**：配置 1vCPU、1G 内存、1TB 流量及 200Mbits 带宽，每月 ¥55.00 CNY。
+
+### 🇭🇰 香港 CMI & 🇯🇵 日本软银 (亚太低延迟直连)
+* **HK-CMI-150M**：提供 150Mbps 峰值带宽、1vCPU、1G 内存和双向 800GB 流量，每月 ¥55.00 CNY。该线路三网适合，油管跑分优秀，具有高速和低延迟的特点。
+* **日本软银 - 联通首选**：提供 1GB 峰值带宽、1vCPU、1G 内存和双向 1TB 流量，每月 ¥48.00 CNY。该套餐属于大陆优化线路，但默认不安装 bbr，需要注意手动安装 bbr 加速。
+
+### 🌍 韩国 / 英国 / 德国原生 IP (特色区域与流媒体解锁)
+* **韩国原生IP**：每月 ¥60.00 CNY，采用 CN2/LG 线路，能够解锁韩区 netflix、afreecatv、tving、wavve 等流媒体。
+* **英国双ISP（新）**：包含 1Gbits 带宽和 1TB 流量，每月 ¥60.00 CNY，助力 TikTok 流量业务。
+* **德国原生IP（全新）**：具备双 ISP 属性并支持 tiktok，提供 1000Mbits 带宽和 1TB 流量，每月 ¥60.00 CNY。
+
+---
+
+## 🛠️ 进阶网络配置与建站建议
+
+* **拥塞控制与加速**：购买亚太节点（如日本软银）后，建议通过 SSH 登录服务器，第一时间手动开启 BBR 加速以优化 TCP 拥塞控制，获得最佳的网络吞吐量。
+* **客户端路由配置**：在本地使用 V2RayN 或类似代理工具连接节点时，建议在客户端的路由设置中配置 `geoip:private` 直连规则。这能有效避免本地局域网流量产生死循环，减少出现 `i/o timeout` 报错的几率，保持长链接的稳定。
+* **海外建站与 SEO**：如果您打算使用这些机器部署 WordPress 或其他 PHP 应用系统，其纯净的原生 IP 能为站点带来更好的信任度。配合优秀的页面 TDK（标题、描述、关键词）结构优化，更容易在海外搜索引擎中获得良好排名。
+
+---
+*本项目内容由社区开发者维护，定期更新高性价比的云服务器选购指南。*
